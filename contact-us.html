@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Font Awesome File -->
+  <link rel="stylesheet" href="./assets/css/fontawesome-free-5.7.0-web/css/all.min.css" />
+  <!-- Font Family -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="./assets/css/bootstrap.5.0.2.min.css" />
+  <!-- CSS File -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Incredible India</title>
+</head>
+
+<body>
+  <!-- Top Header -->
+  <div class="top-header" id="topHeader">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-8 col-md-8 col-sm-8">
+          <div class="personal-details">
+            <a href="#" class="personal-details-link"><i class="personal-icons fas fa-envelope"></i>info@holiday.com</a>
+            <a href="#" class="personal-details-link"><i class="personal-icons fas fa-phone"></i>(+91) 98 1066 4582</a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <div class="social-icons">
+            <i class="personal-icons-list fab fa-facebook"></i>
+            <i class="personal-icons-list fab fa-twitter"></i>
+            <i class="personal-icons-list fab fa-instagram"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Header -->
+  <header id="header" class="navbar navbar-expand-lg navbar-light header py-2">
+    <div class="container-fluid">
+      <a id="logo" class="navbar-brand" href="index.html"><i class="logo-icons fas fa-home"></i>Holiday</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a id="navigation-link" class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a id="navigation-link" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              What We Do
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="about.html">About Us</a></li>
+                <hr class="dropdown-divider">
+              <li><a class="dropdown-item" href="who-we-are.html">Who We Are</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="vission-and-mission.html">Vission & Mission</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a id="navigation-link" class="nav-link" href="our-toure.html">Our Tours</a>
+          </li>
+          <li class="nav-item">
+            <a id="navigation-link" class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <!-- <button class="btn" type="submit">Search</button> -->
+        </form>
+        <a href="registration-page.html" id="login">
+          <button class="login-button">
+            <i class="user-icons fas fa-user"></i> Login
+          </button>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- contact us -->
+  <section class="pt-4">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <div class="contact-us">
+            <h1 class="text-center mb-4">Our Location</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.9446320168486!2d77.52455041413884!3d28.420927500379303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cc0f918abee8d%3A0x8c72169fdd7154b0!2sGautam%20Buddha%20University!5e0!3m2!1sen!2sin!4v1668207170686!5m2!1sen!2sin" width="1240" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- <div id="registration">
+    <div class="registration-inner mx-auto" style="width: 800px">
+      <div class="container-fluid">
+        <div class="row"> 
+          <div class="col-lg-12 col-md-12 col-sm-12 mb-12">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-6 mb-6">
+                <p class="sign-up-page text-center mt-5">Sign Up</p>
+                <div class="user-details mt-5">
+                  <img src="./assets/img/register.svg" alt="Registration Page" class="register-img">
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6 mb-6">
+                <div class="sign-up">
+                  <div class="user-details">
+                    <label for="inputFirstname" class="form-label sign-up-text">First Name</label>
+                    <input type="name" id="inputFirstname" class="form-control mb-2" aria-describedby="passwordHelpBlock">
+                    <label for="inputLastname" class="form-label sign-up-text">Last Name</label>
+                    <input type="name" id="inputLastname" class="form-control mb-2" aria-describedby="passwordHelpBlock">
+                    <label for="inputEmail" class="form-label sign-up-text">Email</label>
+                    <input type="name" id="inputEmail" class="form-control mb-2" aria-describedby="passwordHelpBlock">
+                    <label for="inputUsername" class="form-label sign-up-text">User Name</label>
+                    <input type="name" id="inputUsername" class="form-control mb-2" aria-describedby="passwordHelpBlock">
+                    <label for="inputPassword5" class="form-label sign-up-text">Password</label>
+                    <input type="password" id="inputPassword5" class="form-control mb-2" aria-describedby="passwordHelpBlock">
+                    <label for="inputConfirmpassword5" class="form-label sign-up-text">Confirm Password</label>
+                    <input type="password" id="inputConfirmpassword5" class="form-control mb-2" aria-describedby="passwordHelpBlock">
+                  </div>
+                  <div id="submit-button">
+                    <button class="sign-up-button">Submit</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  
+  
+  
+  <!-- Footer -->
+  <footer class="sub-footer pt-3 pb-3">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <p class="sub-footer-line">Copyright © 2022 All right reserve <a href="" class="sub-footer-link">Holiday</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="./js/bootstrap.bundle.5.0.2.min.js"></script>
+</body>
+
+</html>
